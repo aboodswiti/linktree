@@ -17,6 +17,10 @@ class DashboardController < ApplicationController
 
   def set_user
     # localhost:3000/1
-    @user = User.find_by_id(params[:id])
+    begin
+    @user = User.friendly.find(params[:id])
+    rescue StandardError
+      @user = nil
+    end
   end
 end
