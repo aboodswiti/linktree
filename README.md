@@ -20,7 +20,7 @@ Follow these steps to set up and run the Linktree On Rails project on your local
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone [https://github.com/your-username/linktree-on-rails.git](https://github.com/aboodswiti/linktree.git)
+   git clone https://github.com/aboodswiti/linktree.git
    ```
 
 2. Navigate to the project directory.
