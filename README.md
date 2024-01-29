@@ -25,7 +25,7 @@ Follow these steps to set up and run the Linktree On Rails project on your local
 
 2. Navigate to the project directory.
    ```bash
-   cd linktree-on-rails
+   cd linktree
    ```
 
 3. Install the required gems.
